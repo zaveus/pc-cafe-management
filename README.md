@@ -1,5 +1,4 @@
 # PC Café POS System
-
 A simple Point-of-Sale and time management system designed for PC cafés.  
 This project was created for a database course and demonstrates basic full-stack development using React, PHP, and MySQL.
 
@@ -24,7 +23,7 @@ This is a basic project meant to show core functionality. More features can be a
 
 
 ## SQL Query
-
+```
 CREATE TABLE time_wallet (
   wallet_id CHAR(5) PRIMARY KEY,
   time_credits DECIMAL(10,2) DEFAULT 0.00
@@ -97,7 +96,7 @@ INSERT INTO product_table (item_id, item_name, category, price) VALUES
 ('SN001', 'Chips', 'Snacks', 3.49),
 ('ML001', 'Meal A', 'Meals', 14.99),
 ('CR001', '1hr Extension', 'Credits', 5.99);
-
+```
 
 
 
